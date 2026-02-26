@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>TP JavaScript</title>
+  </head>
+  <body>
+    <h1>Exercice 3</h1>
+
+    <script>
+      const TAUX_TVA = 0.2;
+      let prixHT = 150;
+      let prixTTC = prixHT + (prixHT * TAUX_TVA);
+      console.log(`Prix HT : ${prixHT} € | TVA (20%) : ${prixHT * TAUX_TVA} € | Prix TTC : ${prixTTC} €`);
+     /* 
+      TAUX_TVA = 0.24;
+      console.log(TAUX_TVA);
+      ona l'erreur car TAUX-TVA est const donnc il ne change pas la valeur .
+      */
+    </script>
+  </body>
+</html>
